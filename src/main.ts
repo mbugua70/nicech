@@ -38,7 +38,10 @@ const appHTML = `
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-container">
-      <a href="#home" class="logo">NICECH</a>
+      <a href="#home" class="logo">
+        <img src="/logo.svg" alt="Nicech Logo" class="logo-img">
+        <span class="logo-text">NICECH</span>
+      </a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#home" class="nav-link active">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
@@ -56,7 +59,7 @@ const appHTML = `
   <section class="hero" id="home">
     <div class="hero-content">
       <h1 class="hero-title">
-        Welcome to <span class="highlight">Nicech</span><br>Welfare Association
+        Welcome to <span class="highlight">Nicech</span><br>Transport Crew Self Help Group
       </h1>
       <p class="hero-subtitle">
         Empowering the Matatu industry community through unity, support, and shared prosperity.
@@ -79,9 +82,9 @@ const appHTML = `
     <div class="container">
       <div class="section-header animate-on-scroll">
         <span class="section-tag">Who We Are</span>
-        <h2 class="section-title">About Nicech Welfare Association</h2>
+        <h2 class="section-title">About Nicech Transport Crew</h2>
         <p class="section-description">
-          A community-driven welfare group dedicated to supporting individuals in the Matatu industry
+          A community-driven self help group dedicated to supporting individuals in the Matatu industry
         </p>
       </div>
 
@@ -165,8 +168,16 @@ const appHTML = `
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
-      <p>&copy; 2025 Nicech Welfare Association. All rights reserved.</p>
-      <p>Empowering the Matatu community, one member at a time.</p>
+      <div class="footer-logo">
+        <img src="/logo.svg" alt="Nicech Logo">
+        <h3>NICECH TRANSPORT CREW SELF HELP GROUP</h3>
+      </div>
+      <div class="footer-info">
+        <p>P.O. BOX 6555-00100 NAIROBI, KENYA</p>
+        <p>PATRON: 0725400324 | CHAIRMAN: 0722715338</p>
+        <p>Email: nicechtransport@gmail.com</p>
+      </div>
+      <p class="footer-copyright">&copy; 2025 Nicech Transport Crew Self Help Group. All rights reserved.</p>
     </div>
   </footer>
 `

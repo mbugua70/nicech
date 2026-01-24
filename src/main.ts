@@ -31,6 +31,19 @@ const galleryMedia = [
   { type: 'video', src: '/VID-20251205-WA0012.mp4' },
   { type: 'video', src: '/WhatsApp Video 2025-12-05 at 10.36.49_9aa18c5b.mp4' },
   { type: 'video', src: '/WhatsApp Video 2025-12-05 at 10.36.51_591add39.mp4' },
+  // New images added January 2026
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.47.jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.48.jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.48 (1).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.48 (2).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.49.jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.49 (1).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.49 (2).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.50.jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.50 (1).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.50 (2).jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.51.jpeg' },
+  { type: 'image', src: '/new/WhatsApp Image 2026-01-23 at 09.13.51 (1).jpeg' },
 ]
 
 // ==================== HTML STRUCTURE ====================
